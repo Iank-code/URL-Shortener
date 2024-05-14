@@ -8,7 +8,13 @@ export default function Navbar() {
   return (
     <div className="flex flex-row justify-between px-[3em] py-[1.7em] shadow-md">
       <Link href="/">
-        <Image src="logo.svg" alt="logo.svg" width={120} height={120} />
+        <Image
+          src="logo.svg"
+          alt="logo.svg"
+          width={120}
+          height={120}
+          priority
+        />
       </Link>
 
       <div className="flex gap-[1.5em]">
